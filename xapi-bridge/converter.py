@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import json, re, xml.etree.ElementTree as ET
 
 

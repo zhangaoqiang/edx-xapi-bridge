@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys, os, json, requests, threading
 from urlparse import urljoin
 from pyinotify import WatchManager, Notifier, EventsCodes, ProcessEvent
