@@ -65,7 +65,7 @@ def to_xapi(evt):
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
@@ -104,7 +104,7 @@ def to_xapi(evt):
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
@@ -126,14 +126,14 @@ def to_xapi(evt):
 			},
 			'object': {
 				'objectType': 'Activity',
-				'id': 'i4x://' + evt['context']['course_id'] + event['id'],
+				'id': 'i4x:' + evt['context']['course_id'] + event['id'],
 				'definition': {
 					'name': {'en-US': "Loaded Video" }
 				}
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
@@ -154,7 +154,7 @@ def to_xapi(evt):
 			},
 			'object': {
 				'objectType': 'Activity',
-				'id': 'i4x://' + evt['context']['course_id'] + event['id'],
+				'id': 'i4x:' + evt['context']['course_id'] + event['id'],
 				'definition': {
 					'name': {'en-US': "Played Video" }
 				}
@@ -166,7 +166,7 @@ def to_xapi(evt):
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
@@ -187,7 +187,7 @@ def to_xapi(evt):
 			},
 			'object': {
 				'objectType': 'Activity',
-				'id': 'i4x://' + evt['context']['course_id'] + event['id'],
+				'id': 'i4x:' + evt['context']['course_id'] + event['id'],
 				'definition': {
 					'name': {'en-US': "Paused Video" }
 				}
@@ -199,7 +199,7 @@ def to_xapi(evt):
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
@@ -220,7 +220,7 @@ def to_xapi(evt):
 			},
 			'object': {
 				'objectType': 'Activity',
-				'id': 'i4x://' + evt['context']['course_id'] + event['id'],
+				'id': 'i4x:' + evt['context']['course_id'] + event['id'],
 				'definition': {
 					'name': {'en-US': "Completed Video" }
 				}
@@ -232,7 +232,7 @@ def to_xapi(evt):
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
@@ -253,7 +253,7 @@ def to_xapi(evt):
 			},
 			'object': {
 				'objectType': 'Activity',
-				'id': 'i4x://' + evt['context']['course_id'] + event['id'],
+				'id': 'i4x:' + evt['context']['course_id'] + event['id'],
 				'definition': {
 					'name': {'en-US': "Video seek" }
 				}
@@ -267,7 +267,7 @@ def to_xapi(evt):
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
@@ -288,7 +288,7 @@ def to_xapi(evt):
 			},
 			'object': {
 				'objectType': 'Activity',
-				'id': 'i4x://' + evt['context']['course_id'] + event['id'],
+				'id': 'i4x:' + evt['context']['course_id'] + event['id'],
 				'definition': {
 					'name': {'en-US': "Video speed change" }
 				}
@@ -302,7 +302,7 @@ def to_xapi(evt):
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
@@ -323,7 +323,7 @@ def to_xapi(evt):
 			},
 			'object': {
 				'objectType': 'Activity',
-				'id': 'i4x://' + evt['context']['course_id'] + event['id'],
+				'id': 'i4x:' + evt['context']['course_id'] + event['id'],
 				'definition': {
 					'name': {'en-US': "Video transcript hidden" }
 				}
@@ -335,7 +335,7 @@ def to_xapi(evt):
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
@@ -356,7 +356,7 @@ def to_xapi(evt):
 			},
 			'object': {
 				'objectType': 'Activity',
-				'id': 'i4x://' + evt['context']['course_id'] + event['id'],
+				'id': 'i4x:' + evt['context']['course_id'] + event['id'],
 				'definition': {
 					'name': {'en-US': "Video transcript shown" }
 				}
@@ -368,7 +368,7 @@ def to_xapi(evt):
 			},
 			'context': {
 				'contextActivities': {
-					'parent': [{'id': 'i4x://'+evt['context']['course_id']}]
+					'parent': [{'id': 'i4x:'+evt['context']['course_id']}]
 				}
 			}
 		})
